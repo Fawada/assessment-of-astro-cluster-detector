@@ -1,0 +1,28 @@
+# Owner's code and data are NOT part of this repository.
+# Keep them outside the repo, or in these folders, which are never committed.
+owner-code/
+data/
+*.npz
+*.npy
+*.fits
+
+# Model checkpoints and training outputs
+*.pt
+*.pth
+outputs/
+runs/
+
+# Raw probe/profiler output (commit curated summaries in results/ instead)
+probe_*/
+probe_*.out
+*.ncu-rep
+*.nsys-rep
+*.darshan
+
+# Python / editor
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
